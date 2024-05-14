@@ -20,7 +20,7 @@ public:
 int Mahasiswa::nim = 182;
 
 void Mahasiswa::setID() {
-	
+	id = ++nim;
 }
 
 int main()
