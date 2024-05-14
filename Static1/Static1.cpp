@@ -19,6 +19,10 @@ public:
 
 int Mahasiswa::nim = 182;
 
+void Mahasiswa::setID() {
+	
+}
+
 int main()
 {
     
