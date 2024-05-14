@@ -37,8 +37,16 @@ Mahasiswa::Mahasiswa(int iNim, string iNama)
 	nim = iNim;
 	nama = iNama;
 }
+void Mahasiswa::cetak()
+{
+	cout << endl << "Nim =" << nim << endl;
+	cout << "Nama =" << nim << endl;
+}
 
 int main()
 {
-    
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(182);
+	Mahasiswa mhs3("Lyvia");
+	Mahasiswa mhs4(14, "Kristal");
 }
