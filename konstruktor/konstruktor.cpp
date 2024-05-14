@@ -49,4 +49,10 @@ int main()
 	Mahasiswa mhs2(182);
 	Mahasiswa mhs3("Lyvia");
 	Mahasiswa mhs4(14, "Kristal");
+
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+
 }
