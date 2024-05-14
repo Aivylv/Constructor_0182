@@ -10,6 +10,7 @@ private:
 public:
 	Mahasiswa();
 	Mahasiswa(int);
+	Mahasiswa(string);
 };
 int main()
 {
