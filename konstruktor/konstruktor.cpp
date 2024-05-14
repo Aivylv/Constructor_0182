@@ -9,7 +9,7 @@ private:
 	string nama;
 public:
 	Mahasiswa();
-
+	Mahasiswa(int);
 };
 int main()
 {
